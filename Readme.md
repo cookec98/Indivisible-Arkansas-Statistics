@@ -50,13 +50,13 @@ A **Team Contract** is a document prepared by each team prior to starting work o
 1. Expected individual attendance, punctuality, and participation at all team meetings:<br>
   a. All members are expected to attend and participate any meetings that require their presence, within a reasonable frame of punctuality.
 
-2.Expected level of responsibility for fulfilling team assignments, timelines, and deadlines:<br>
+2. Expected level of responsibility for fulfilling team assignments, timelines, and deadlines:<br>
   a. All members are expected to complete tasks on time and alert the time if a deadline is either too soon or infeasible.
 
-3.Expected level of communication with other team members:<br>
+3. Expected level of communication with other team members:<br>
   a. Members are expected to keep in reasonable communications with the rest of the team, alerting them to any issues or possible issues that may occur and asking for help when necessary.
 
-4.Expected level of commitment to team decisions and tasks:<br>
+4. Expected level of commitment to team decisions and tasks:<br>
   a. Members are expected to be committed to decisions made by the team and to any tasks either assigned or chosen by the member.
 
 **F. Descrpition of Each Members' Roles:**
@@ -71,10 +71,10 @@ What procedures and penalties do you wish to implement in the case of team membe
 
   1. **Peer Evaluation:**** Our team will conduct peer evaluation as part of this project.**
 
-1.Policies for handling infractions of any of the obligations of this team contract:
-  a.Infractions will be discussed among team members.
-2.Policies for handling persistent infractions:
-  a.Frequent infractions will be discussed among team members with the advisor.
+1. Policies for handling infractions of any of the obligations of this team contract:
+  a. Infractions will be discussed among team members.
+2. Policies for handling persistent infractions:
+  a. Frequent infractions will be discussed among team members with the advisor.
 
 **H. Certification by team members:**
 
