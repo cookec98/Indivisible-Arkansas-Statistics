@@ -6,7 +6,7 @@ A **Team Contract** is a document prepared by each team prior to starting work o
 
 | **Team Member Name:** | **E-Mail:** | **Alternate Contact Info** | **Role:** |
 
-| Josh Thomeczek | [example@gmail.com](mailto:example@gmail.com) | phone | role |
+| Josh Thomeczek | [thomeczekje@hendrix.edu](mailto:thomeczekje@hendrix.edu) | 314-825-0208 | Client Communication & Front End HTML / CSS |
 
 | Campbell Cooke | [cookecj@hendrix.edu](mailto:cookecj@hendrix.edu) | 214-914-7896 | Front-end Javascript / AJAX |
 
@@ -60,7 +60,7 @@ A **Team Contract** is a document prepared by each team prior to starting work o
   a. Members are expected to be committed to decisions made by the team and to any tasks either assigned or chosen by the member.
 
 **F. Description of Each Members' Roles:**
-  1. Josh Thomeczek -- placeholder paragraph
+  1. Josh Thomeczek -- My first responsibility, and the one I've already acted on, is client communication. I want to make sure we stay on topic and create something useful and understandable to our client. Second, I am responsible for the front-end HTML and CSS - that is, what the client will interact with. These two things go hand in hand, so I thought it would be best to combine them with one person. The organization of our team is highly democratic, so it's up to all of us to organize when needed. Finally, it's important that we all remain flexible, and I will assist the other members when needed.
   3. Jacob Newland -- placeholder paragraph
   4. Campbell Cooke -- This project of course will be collaborative on all fronts, so while my specific role is Front-end Javascript / AJAX, I will always talk to and with my other team members about proposed changes or actions needed to be taken on the website. I will have the responsibility of ensuring the Javascript that runs the background of the website
   is always functional and allows our client to easily access the information they need from the database and that the data that does get taken from the database is presented in a
@@ -89,8 +89,8 @@ In appending your signatures below, you are stating that:
 | Printed name: | placeholder |
 | Signature: | placeholder | Date: | 9/20/21 |
 
-| Printed name: | placeholder |
-| Signature: | placeholder | Date: | 9/20/21 |
+| Printed name: | Josh Thomeczek |
+| Signature: | Josh | Date: | 9/20/21 |
 
 | Printed name: | Campbell Cooke |
 | Signature: | Campbell J. Cooke | Date: | 9/20/21 |
