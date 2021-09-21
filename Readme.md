@@ -66,7 +66,7 @@ A **Team Contract** is a document prepared by each team prior to starting work o
   is always functional and allows our client to easily access the information they need from the database and that the data that does get taken from the database is presented in a
   nice and easy to read way. I will also take responsibility for some of the Team Organization, and I just didn't put that explicitly under my roles in the team because the idea is
   for all of the Organization to be highly agreed upon by all members of the team rather than having just one person decide things.
-  5. Maxwell Gilbreath -- placeholder paragraph
+  5. Maxwell Gilbreath --  My responsibilities in the SQL Schema Design will require me to design and implement a database in SQL that can adequately serve the purposes of the project that require the usage of such systems. I will work to provide satisfactory results in this endevor, as well as maintaining a clean and well-documented codebase so that further development may take place even after the project is over by other devlopers with ease and little confusion. I will work to coordinate with my team members to ensure that not only I don't fall behind, but to assist in areas that may require more than one contributor. I will ensure that any and all delays/setbacks are clearly communicated with my team so that they are swiftly dealt with and work may resume in a timely manner. 
 
 **G. Consequences of breach of contract:**
 
