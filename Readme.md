@@ -63,7 +63,7 @@ A **Team Contract** is a document prepared by each team prior to starting work o
 
 **G. Consequences of breach of contract:**
 
-What procedures and penalties do you wish to implement in the case of &quot;slackers&quot; or team members who deviate from your Team Contract?
+What procedures and penalties do you wish to implement in the case of team members who deviate from your Team Contract?
 
   1. **Peer Evaluation:**** Our team will conduct peer evaluation as part of this project.**
 
