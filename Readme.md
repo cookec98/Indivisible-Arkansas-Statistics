@@ -10,7 +10,7 @@ A **Team Contract** is a document prepared by each team prior to starting work o
 
 | Campbell Cooke | [cookecj@hendrix.edu](mailto:cookecj@hendrix.edu) | 214-914-7896 | Front-end Javascript / AJAX |
 
-| Jacob Newland | [example@gmail.com](mailto:example@gmail.com) | phone | role |
+| Jacob Newland | [newlandjr@hendrix.edu](mailto:newlandjr@hendrix.edu) | 501-766-8889 | Framework/Deployment |
 
 | Max Gilbreath | [maxgilbreath@gmail.com](mailto:maxgilbreath@gmail.com) | 479-651-4979 | SQL Schema Design |
 
@@ -61,8 +61,8 @@ A **Team Contract** is a document prepared by each team prior to starting work o
 
 **F. Description of Each Members' Roles:**
   1. Josh Thomeczek -- My first responsibility, and the one I've already acted on, is client communication. I want to make sure we stay on topic and create something useful and understandable to our client. Second, I am responsible for the front-end HTML and CSS - that is, what the client will interact with. These two things go hand in hand, so I thought it would be best to combine them with one person. The organization of our team is highly democratic, so it's up to all of us to organize when needed. Finally, it's important that we all remain flexible, and I will assist the other members when needed.
-  3. Jacob Newland -- placeholder paragraph
-  4. Campbell Cooke -- This project of course will be collaborative on all fronts, so while my specific role is Front-end Javascript / AJAX, I will always talk to and with my other team members about proposed changes or actions needed to be taken on the website. I will have the responsibility of ensuring the Javascript that runs the background of the website
+  3. Jacob Newland -- While my roles are framework and development, I recognize that I will be working on whichever parts of this project that I'm able to and am available for after some discussion with my teammates.  Framework is the initial plan and decisions about what this will look like, its useage, and the user experience on the site.  I intend to do this with the help of LucidChart, Vertabelo, and Trello, along with any other software useful in this front and anything I write or draw.  Deployment will entail all steps require to make our site accessible to Indivisible Arkansas and their users.  I intend to do this through the release of updates and patches for Indivisible Arkansas to see throughout our development process so that they may comment on what they like/dislike and what we could change before our final release.  With the help of my teammates, we will leave our client completely satisfied with our site by our final deadline.  I will also ensure that I help any of my teammates with any issue on this project in any way I can.
+  4.   4. Campbell Cooke -- This project of course will be collaborative on all fronts, so while my specific role is Front-end Javascript / AJAX, I will always talk to and with my other team members about proposed changes or actions needed to be taken on the website. I will have the responsibility of ensuring the Javascript that runs the background of the website
   is always functional and allows our client to easily access the information they need from the database and that the data that does get taken from the database is presented in a
   nice and easy to read way. I will also take responsibility for some of the Team Organization, and I just didn't put that explicitly under my roles in the team because the idea is
   for all of the Organization to be highly agreed upon by all members of the team rather than having just one person decide things.
@@ -86,8 +86,8 @@ In appending your signatures below, you are stating that:
 2. _You have agreed to abide by these terms and conditions of this contract._
 3. _You understand that you will be subject to the consequences specified above and may be subject to_
 
-| Printed name: | placeholder |
-| Signature: | placeholder | Date: | 9/20/21 |
+| Printed name: | Jacob Newland |
+| Signature: | Jacob R. Newland | Date: | 9/21/21 |
 
 | Printed name: | Josh Thomeczek |
 | Signature: | Josh | Date: | 9/20/21 |
