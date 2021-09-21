@@ -90,24 +90,3 @@ In appending your signatures below, you are stating that:
 
 | Printed name: | Maxwell Gilbreath |
 | Signature: | Maxwell D. Gilbreath | Date: | 9/20/21 |
-
-**I. Acceptance of contract by faculty:**
-
-#
-
-This contract does not take effect until it is accepted by the supervising faculty of senior design as evidenced by their signatures below:
-
-#
-
-| Printed name: |
- |
- |
-| --- | --- | --- |
-| Signature: |
- | Date: |
- |
-| Printed name: |
- |
-| Signature: |
- | Date: |
- |
