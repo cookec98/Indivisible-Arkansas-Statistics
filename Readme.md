@@ -71,9 +71,9 @@ What procedures and penalties do you wish to implement in the case of team membe
 
   1. **Peer Evaluation:**** Our team will conduct peer evaluation as part of this project.**
 
-1. Policies for handling infractions of any of the obligations of this team contract:
+1. Policies for handling infractions of any of the obligations of this team contract:<br>
   a. Infractions will be discussed among team members.
-2. Policies for handling persistent infractions:
+2. Policies for handling persistent infractions:<br>
   a. Frequent infractions will be discussed among team members with the advisor.
 
 **H. Certification by team members:**
