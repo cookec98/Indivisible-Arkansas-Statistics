@@ -16,48 +16,48 @@ A **Team Contract** is a document prepared by each team prior to starting work o
 
 **A. Team Structure:**
 
-1.Leadership structure (individual, individual with rotating leadership, shared):
-  a.Shared, with unanimous voting on decisions.
-2.Who is the team Recorder/Documentation Manager/Maintainer of all required turn-ins?
-  a.Each team member has their own Clockify account as well as their own blog for required posts, and as such each team member is responsible for their own documents. The only exception are the presentations, in which all team members are responsible for creating and presenting their progress so far.
-3.Day, time, and place for regular team meetings:
-  a.Team meetings will be coordinated within Microsoft Teams and will carry out either within teams or in person, according to the times at which all team members can meet.
-4.Usual method of communication:
-  a.Microsoft Teams
+1. Leadership structure (individual, individual with rotating leadership, shared):
+  a. Shared, with unanimous voting on decisions.
+2. Who is the team Recorder/Documentation Manager/Maintainer of all required turn-ins?
+  a. Each team member has their own Clockify account as well as their own blog for required posts, and as such each team member is responsible for their own documents. The only exception are the presentations, in which all team members are responsible for creating and presenting their progress so far.
+3. Day, time, and place for regular team meetings:
+  a. Team meetings will be coordinated within Microsoft Teams and will carry out either within teams or in person, according to the times at which all team members can meet.
+4. Usual method of communication:
+  a. Microsoft Teams
 
 1. **Team Procedures:**
 
-1.Method for setting and following meetings:
-    a.Meeting times will be set in Microsoft Teams and carried out either remotely or in person.
-2.Method of record keeping:
-    a.Records of work times will be kept by team members in Clockify.
-3.Procedures in the absence of a team member:
-    a.The team will continue with meetings and work, making up the absence of the member.
+1. Method for setting and following meetings:
+  a. Meeting times will be set in Microsoft Teams and carried out either remotely or in person.
+2. Method of record keeping:
+  a. Records of work times will be kept by team members in Clockify.
+3. Procedures in the absence of a team member:
+  a. The team will continue with meetings and work, making up the absence of the member.
 
 **C. Team Participation:**
 
-1.Strategies to ensure cooperation and equal distribution of tasks:
-  1.All decisions made by the team are expected to be unanimously agreed on, and if disagreements arise, should be handled either within the team or with the help of a mediator to ensure cohesion.
-  2.Tasks will be distributed according to member roles, and tasks too daunting may become a group effort.
-2.Strategies for encouraging/including ideas from all team members (team maintenance):
-  1.Members are encouraged to speak their mind during meetings, as all ideas are worth hearing out.
-3.Strategies for keeping on task (task maintenance):
-  1.Trello will be utilized to ensure progress is made to a satisfactory rate.
-  2.Regular meetings over progress made will ensure that no current or upcoming issue will derail the project or the work of a member.
+1. Strategies to ensure cooperation and equal distribution of tasks:
+  a. All decisions made by the team are expected to be unanimously agreed on, and if disagreements arise, should be handled either within the team or with the help of a mediator to ensure cohesion.
+  b. Tasks will be distributed according to member roles, and tasks too daunting may become a group effort.
+2. Strategies for encouraging/including ideas from all team members (team maintenance):
+  a. Members are encouraged to speak their mind during meetings, as all ideas are worth hearing out.
+3. Strategies for keeping on task (task maintenance):
+  a. Trello will be utilized to ensure progress is made to a satisfactory rate.
+  b. Regular meetings over progress made will ensure that no current or upcoming issue will derail the project or the work of a member.
 
 **D. Personal Accountability:**
 
 1. Expected individual attendance, punctuality, and participation at all team meetings:
-    a. All members are expected to attend and participate any meetings that require their presence, within a reasonable frame of punctuality.
+  a. All members are expected to attend and participate any meetings that require their presence, within a reasonable frame of punctuality.
 
 2.Expected level of responsibility for fulfilling team assignments, timelines, and deadlines:
-    a. All members are expected to complete tasks on time and alert the time if a deadline is either too soon or infeasible.
+  a. All members are expected to complete tasks on time and alert the time if a deadline is either too soon or infeasible.
 
 3.Expected level of communication with other team members:
-    a. Members are expected to keep in reasonable communications with the rest of the team, alerting them to any issues or possible issues that may occur and asking for help when necessary.
+  a. Members are expected to keep in reasonable communications with the rest of the team, alerting them to any issues or possible issues that may occur and asking for help when necessary.
 
 4.Expected level of commitment to team decisions and tasks.
-    a. Members are expected to be committed to decisions made by the team and to any tasks either assigned or chosen by the member.
+  a. Members are expected to be committed to decisions made by the team and to any tasks either assigned or chosen by the member.
 
 **F. Descrpition of Each Members' Roles:**
 
@@ -111,5 +111,3 @@ This contract does not take effect until it is accepted by the supervising facul
 | Signature: |
  | Date: |
  |
-
-Page 4 of 4
