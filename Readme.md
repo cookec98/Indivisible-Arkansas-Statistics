@@ -60,6 +60,10 @@ A **Team Contract** is a document prepared by each team prior to starting work o
   a. Members are expected to be committed to decisions made by the team and to any tasks either assigned or chosen by the member.
 
 **F. Descrpition of Each Members' Roles:**
+  1. Josh Thomeczek -- placeholder paragraph
+  3. Jacob Newland -- placeholder paragraph
+  4. Campbell Cooke -- placeholder paragraph
+  5. Maxwell Gilbreath -- placeholder paragraph
 
 **G. Consequences of breach of contract:**
 
