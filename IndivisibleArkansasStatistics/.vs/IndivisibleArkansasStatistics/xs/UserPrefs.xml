@@ -1,15 +1,17 @@
 ﻿<Properties StartupConfiguration="{BF3173E6-019B-4639-BF3C-7E4D707C759B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Contact.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Log.cs">
     <Files>
-      <File FileName="Models/Contact.cs" Line="23" Column="1" />
+      <File FileName="Models/Log.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="IndivisibleArkansasStatistics" expanded="True">
             <Node name="IndivisibleArkansasStatistics" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="appsettings.json" expanded="True" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Log.cs" selected="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
