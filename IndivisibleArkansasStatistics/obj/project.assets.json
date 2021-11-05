@@ -8,26 +8,24 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\theco\\.nuget\\packages\\": {}
+    "/Users/joshthomeczek/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\theco\\Atom Projects\\Indivisible-Arkansas-Statistics\\IndivisibleArkansasStatistics\\IndivisibleArkansasStatistics.csproj",
+      "projectUniqueName": "/Users/joshthomeczek/Github Stuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/IndivisibleArkansasStatistics.csproj",
       "projectName": "IndivisibleArkansasStatistics",
-      "projectPath": "C:\\Users\\theco\\Atom Projects\\Indivisible-Arkansas-Statistics\\IndivisibleArkansasStatistics\\IndivisibleArkansasStatistics.csproj",
-      "packagesPath": "C:\\Users\\theco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\theco\\Atom Projects\\Indivisible-Arkansas-Statistics\\IndivisibleArkansasStatistics\\obj\\",
+      "projectPath": "/Users/joshthomeczek/Github Stuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/IndivisibleArkansasStatistics.csproj",
+      "packagesPath": "/Users/joshthomeczek/.nuget/packages/",
+      "outputPath": "/Users/joshthomeczek/Github Stuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\theco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/joshthomeczek/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -63,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }
