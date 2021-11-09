@@ -7,7 +7,7 @@ namespace IndivisibleArkansasStatistics.Models
     {
         Email, Text, Phone
     }
-    public class Scripts
+    public class Script
     {
        
         [Required]

@@ -28,7 +28,10 @@ namespace IndivisibleArkansasStatistics
             services.AddRazorPages();
 
             services.AddDbContext<IndivisibleArkansasStatisticsContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("IndivisibleArkansasStatisticsContext")));
+                    options.UseSqlite(Configuration.GetConnectionString("IndivisibleArkansasStatisticsContext")));
+
+            services.AddDatabaseDeveloperPageExceptionFilter();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,6 +40,7 @@ namespace IndivisibleArkansasStatistics
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseMigrationsEndPoint();
             }
             else
             {

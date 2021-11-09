@@ -183,3 +183,9 @@ C:\Users\theco\Atom Projects\Indivisible-Arkansas-Statistics\IndivisibleArkansas
 C:\Users\theco\Atom Projects\Indivisible-Arkansas-Statistics\IndivisibleArkansasStatistics\obj\Debug\net5.0\IndivisibleArkansasStatistics.pdb
 C:\Users\theco\Atom Projects\Indivisible-Arkansas-Statistics\IndivisibleArkansasStatistics\obj\Debug\net5.0\IndivisibleArkansasStatistics.genruntimeconfig.cache
 C:\Users\theco\Atom Projects\Indivisible-Arkansas-Statistics\IndivisibleArkansasStatistics\obj\Debug\net5.0\IndivisibleArkansasStatistics.csproj.AssemblyReference.cache
+C:\Users\theco\Atom Projects\Indivisible-Arkansas-Statistics\IndivisibleArkansasStatistics\obj\Debug\net5.0\Razor\Pages\Contacts\Create.cshtml.g.cs
+C:\Users\theco\Atom Projects\Indivisible-Arkansas-Statistics\IndivisibleArkansasStatistics\obj\Debug\net5.0\Razor\Pages\Contacts\Delete.cshtml.g.cs
+C:\Users\theco\Atom Projects\Indivisible-Arkansas-Statistics\IndivisibleArkansasStatistics\obj\Debug\net5.0\Razor\Pages\Contacts\Details.cshtml.g.cs
+C:\Users\theco\Atom Projects\Indivisible-Arkansas-Statistics\IndivisibleArkansasStatistics\obj\Debug\net5.0\Razor\Pages\Contacts\Edit.cshtml.g.cs
+C:\Users\theco\Atom Projects\Indivisible-Arkansas-Statistics\IndivisibleArkansasStatistics\obj\Debug\net5.0\Razor\Pages\Contacts\Index.cshtml.g.cs
+C:\Users\theco\Atom Projects\Indivisible-Arkansas-Statistics\IndivisibleArkansasStatistics\bin\Debug\net5.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

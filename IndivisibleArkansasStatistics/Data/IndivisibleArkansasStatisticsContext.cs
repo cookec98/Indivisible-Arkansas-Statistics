@@ -14,6 +14,23 @@ namespace IndivisibleArkansasStatistics.Data
         {
         }
 
+        public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Interest> Interests { get; set; }
+        public DbSet<Location> Locations { get; set; }
+        public DbSet<Log> Logs { get; set; }
+        public DbSet<Registration> Registrations { get; set; }
+        public DbSet<Script> Scripts { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Contact>().ToTable("Contact");
+            modelBuilder.Entity<Interest>().ToTable("Interest");
+            modelBuilder.Entity<Location>().ToTable("Location");
+            modelBuilder.Entity<Log>().ToTable("Log");
+            modelBuilder.Entity<Registration>().ToTable("Registration");
+            modelBuilder.Entity<Script>().ToTable("Script");
+        }
+
         public DbSet<IndivisibleArkansasStatistics.Models.Contact> Contact { get; set; }
     }
 }
