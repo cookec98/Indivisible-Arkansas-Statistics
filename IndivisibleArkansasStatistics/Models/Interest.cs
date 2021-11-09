@@ -3,9 +3,9 @@ namespace IndivisibleArkansasStatistics.Models
 {
     public class Interest
     {
-        public string interests { get; set; }
+        public string Interests { get; set; }
 
         //primary
-        public int intid { get; set; }
+        public int InterestId { get; set; }
     }
 }

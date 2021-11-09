@@ -1,12 +1,17 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
+
 namespace IndivisibleArkansasStatistics.Models
 {
+    [Keyless]
     public class Log
     {
-        public DateTime timestamp { get; set; }
+        public DateTime Timestamp { get; set; }
 
         // foreign 
-        public int cid { get; set; }
-        public int sid { get; set; }
+        public int ContactId { get; set; }
+        public int ScriptId { get; set; }
+        public Contact Contact { get; set; }
+        public Scripts Script { get; set; }
     }
 }

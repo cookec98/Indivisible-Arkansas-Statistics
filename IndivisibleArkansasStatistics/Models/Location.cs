@@ -3,9 +3,9 @@ namespace IndivisibleArkansasStatistics.Models
 {
     public class Location
     {
-        public string loc { get; set; }
+        public string Loc { get; set; }
 
         //primary
-        public int lid { get; set; }
+        public int LocationId { get; set; }
     }
 }

@@ -1,68 +1,77 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace IndivisibleArkansasStatistics.Models
 {
     public class Contact
     {
-        //mando
         //first name
-        public string f_name { get; set; }
+        [Required]
+        [Display(Name = "First Name")]
+        public string F_name { get; set; }
 
         //middle name
-        public string m_name { get; set; }
+        [Display(Name = "Middle Name")]
+        public string M_name { get; set; }
 
-        //mando
         //last name
-        public string l_name { get; set; }
+        [Required]
+        [Display(Name = "Last Name")]
+        public string L_name { get; set; }
 
         //email
-        public string email { get; set; }
+        public string Email { get; set; }
 
-        //at least 1 address is mando
+        [Required]
+        public string Address { get; set; }
+
+        //Not required, only needed if different
         //mailing address
-        public string m_address { get; set; }
+        [Display(Name = "Mailing Address")]
+        public string M_address { get; set; }
 
         //apartment or lot #
-        public string apt_lot_no { get; set; }
+        [Display(Name = "Apartment Number")]
+        public string Apt_lot_no { get; set; }
 
-        //mando
+        [Required]
         //city/town
-        public string city { get; set; }
+        public string City { get; set; }
 
-        //mando
+        [Required]
         //county
-        public string county { get; set; }
+        public string County { get; set; }
 
         //state
-        public string state { get; set; }
+        public string State { get; set; }
 
         //date of birth
+        [Display(Name = "Date of Birth")]
         public DateTime DOB { get; set; }
 
-        //part affiliation
-        public string p_aff { get; set; }
+        //party affiliation
+        [Display(Name = "Party Affiliation")]
+        public string P_aff { get; set; }
 
         //voting precinct
-        public string precinct { get; set; }
+        public string Precinct { get; set; }
 
         //phone number
-        public int phone { get; set; }
+        public int Phone { get; set; }
 
         //zip code
-        public int zip { get; set; }
-
+        [Display(Name = "Zip Code")]
+        public int Zip { get; set; }
 
 
         //primary
-        public int cid { get; set; }
+        public int ContactId { get; set; }
 
         //foreign
-        public int lid { get; set; }
-        public int intid { get; set; }
-
-        public Registration Registration { get; set; }
-        public Log Log { get; set; }
+        public int LocationId { get; set; }
+        public int InterestId { get; set; }
+        public Location Location { get; set; }
         public Interest Interest { get; set; }
     }
 }
