@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -31,6 +31,9 @@ namespace IndivisibleArkansasStatistics
                     options.UseSqlite(Configuration.GetConnectionString("IndivisibleArkansasStatisticsContext")));
 
             services.AddDatabaseDeveloperPageExceptionFilter();
+
+            services.AddDbContext<ArkansasContext>(options =>
+                    options.UseSqlite(Configuration.GetConnectionString("ArkansasContext")));
 
         }
 

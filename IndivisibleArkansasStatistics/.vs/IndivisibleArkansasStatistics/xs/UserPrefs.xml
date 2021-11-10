@@ -14,6 +14,7 @@
               <Node name="Models" expanded="True">
                 <Node name="Contact.cs" selected="True" />
               </Node>
+              <Node name="Pages" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>

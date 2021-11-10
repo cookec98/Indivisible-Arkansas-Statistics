@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/joshthomeczek/Github Stuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/IndivisibleArkansasStatistics.csproj": {}
+    "/Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/IndivisibleArkansasStatistics.csproj": {}
   },
   "projects": {
-    "/Users/joshthomeczek/Github Stuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/IndivisibleArkansasStatistics.csproj": {
+    "/Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/IndivisibleArkansasStatistics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/joshthomeczek/Github Stuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/IndivisibleArkansasStatistics.csproj",
+        "projectUniqueName": "/Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/IndivisibleArkansasStatistics.csproj",
         "projectName": "IndivisibleArkansasStatistics",
-        "projectPath": "/Users/joshthomeczek/Github Stuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/IndivisibleArkansasStatistics.csproj",
+        "projectPath": "/Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/IndivisibleArkansasStatistics.csproj",
         "packagesPath": "/Users/joshthomeczek/.nuget/packages/",
-        "outputPath": "/Users/joshthomeczek/Github Stuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/obj/",
+        "outputPath": "/Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/joshthomeczek/.config/NuGet/NuGet.Config"
+          "/Users/joshthomeczek/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
