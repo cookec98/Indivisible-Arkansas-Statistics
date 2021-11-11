@@ -69,8 +69,8 @@ namespace IndivisibleArkansasStatistics.Models
         public int ContactId { get; set; }
 
         //foreign
-        public int LocationId { get; set; }
-        public int InterestId { get; set; }
+        public int? LocationId { get; set; }
+        public int? InterestId { get; set; }
         public Location Location { get; set; }
         public Interest Interest { get; set; }
     }
