@@ -15,6 +15,7 @@ namespace ContosoUniversity.Data
                 return;   // DB has been seeded
             }
 
+
             var contactos = new Contact[]
             {
                 new Contact{F_name="Carson",L_name="Alexander",Address="1600 Washington Ave", City="Conway", County="Faulkner", State="Arkansas", Zip = 72032, ContactId=1},
@@ -36,6 +37,18 @@ namespace ContosoUniversity.Data
             };
 
             context.Locations.AddRange(locationos);
+            context.SaveChanges();
+
+
+            var interestos = new Interest[]
+            {
+                new Interest{Interests="Gun Control",InterestId=1},
+                new Interest{Interests="Education",InterestId=2},
+                new Interest{Interests="Taxation",InterestId=3},
+                new Interest{Interests="Discrimination",InterestId=4},
+            };
+
+            context.Interests.AddRange(interestos);
             context.SaveChanges();
         }
     }
