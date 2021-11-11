@@ -1,13 +1,9 @@
 ﻿<Properties StartupConfiguration="{BF3173E6-019B-4639-BF3C-7E4D707C759B}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Data/DBInitalizer.cs">
     <Files>
-      <File FileName="Models/Contact.cs" Line="28" Column="1" />
-      <File FileName="Data/DBInitalizer.cs" Line="32" Column="35" />
-      <File FileName="Data/ArkansasContext.cs" Line="12" Column="25" />
-      <File FileName="Data/IndivisibleArkansasStatisticsContext.cs" Line="1" Column="1" />
-      <File FileName="Startup.cs" Line="32" Column="1" />
-      <File FileName="Program.cs" Line="34" Column="23" />
-      <File FileName="Models/Location.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="13" Column="1" />
+      <File FileName="Pages/Shared/_Layout.cshtml" Line="30" Column="15" />
+      <File FileName="Data/DBInitalizer.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,9 +14,7 @@
                 <Node name="DBInitalizer.cs" selected="True" />
               </Node>
               <Node name="Models" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="Contacts" expanded="True" />
-              </Node>
+              <Node name="Pages" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>

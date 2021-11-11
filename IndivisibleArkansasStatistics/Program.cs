@@ -31,7 +31,7 @@ namespace IndivisibleArkansasStatistics
                 {
                     var context = services.GetRequiredService<IndivisibleArkansasStatisticsContext>();
                     context.Database.EnsureCreated();
-                    // DbInitializer.Initialize(context);
+                    //DBInitializer.Initialize(context);
                 }
                 catch (Exception ex)
                 {
