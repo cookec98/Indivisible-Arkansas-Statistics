@@ -14,6 +14,16 @@ namespace IndivisibleArkansasStatistics.Data
         {
         }
 
+
+
+        public DbSet<Contact> Contacts { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Contact>().ToTable("Contacts");
+        }
+
+
         public DbSet<IndivisibleArkansasStatistics.Models.Contact> Contact { get; set; }
     }
 }

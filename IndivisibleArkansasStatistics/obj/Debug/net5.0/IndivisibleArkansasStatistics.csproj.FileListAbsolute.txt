@@ -354,3 +354,8 @@ C:/Users/theco/Atom Projects/Indivisible-Arkansas-Statistics/IndivisibleArkansas
 /Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/obj/Debug/net5.0/ref/IndivisibleArkansasStatistics.dll
 /Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/obj/Debug/net5.0/IndivisibleArkansasStatistics.pdb
 /Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/obj/Debug/net5.0/IndivisibleArkansasStatistics.genruntimeconfig.cache
+/Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/obj/Debug/net5.0/Razor/Pages/Contacts/Create.cshtml.g.cs
+/Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/obj/Debug/net5.0/Razor/Pages/Contacts/Delete.cshtml.g.cs
+/Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/obj/Debug/net5.0/Razor/Pages/Contacts/Details.cshtml.g.cs
+/Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/obj/Debug/net5.0/Razor/Pages/Contacts/Edit.cshtml.g.cs
+/Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/obj/Debug/net5.0/Razor/Pages/Contacts/Index.cshtml.g.cs
