@@ -1,22 +1,27 @@
 ﻿<Properties StartupConfiguration="{BF3173E6-019B-4639-BF3C-7E4D707C759B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/DBInitalizer.cs">
     <Files>
       <File FileName="Models/Contact.cs" Line="28" Column="1" />
-      <File FileName="Data/DBInitalizer.cs" Line="2" Column="6" />
-      <File FileName="Data/ArkansasContext.cs" Line="16" Column="1" />
-      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="Data/DBInitalizer.cs" Line="32" Column="35" />
+      <File FileName="Data/ArkansasContext.cs" Line="12" Column="25" />
+      <File FileName="Data/IndivisibleArkansasStatisticsContext.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="32" Column="1" />
+      <File FileName="Program.cs" Line="34" Column="23" />
+      <File FileName="Models/Location.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="IndivisibleArkansasStatistics" expanded="True">
             <Node name="IndivisibleArkansasStatistics" expanded="True">
-              <Node name="Data" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="DBInitalizer.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Contacts" expanded="True" />
               </Node>
-              <Node name="appsettings.json" expanded="True" selected="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>

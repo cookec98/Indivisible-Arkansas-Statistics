@@ -15,26 +15,33 @@ namespace IndivisibleArkansasStatistics
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
+            Environment = env;
             Configuration = configuration;
         }
 
         public IConfiguration Configuration { get; }
+        public IWebHostEnvironment Environment { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddRazorPages();
 
-            services.AddDbContext<IndivisibleArkansasStatisticsContext>(options =>
+            if (Environment.IsDevelopment())
+            {
+                services.AddDbContext<IndivisibleArkansasStatisticsContext>(options =>
                     options.UseSqlite(Configuration.GetConnectionString("IndivisibleArkansasStatisticsContext")));
+            }
+            else
+            { 
+                services.AddDatabaseDeveloperPageExceptionFilter();
 
-            services.AddDatabaseDeveloperPageExceptionFilter();
-
-            services.AddDbContext<ArkansasContext>(options =>
-                    options.UseSqlite(Configuration.GetConnectionString("ArkansasContext")));
-
+                services.AddDbContext<ArkansasContext>(options =>
+                        options.UseSqlite(Configuration.GetConnectionString("ArkansasContext")));
+            }
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

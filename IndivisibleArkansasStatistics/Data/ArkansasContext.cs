@@ -15,7 +15,6 @@ namespace IndivisibleArkansasStatistics.Data
         }
 
 
-
         public DbSet<Contact> Contacts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
