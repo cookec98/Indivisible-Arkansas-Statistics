@@ -3,9 +3,9 @@ using IndivisibleArkansasStatistics.Models;
 using System;
 using System.Linq;
 
-namespace ContosoUniversity.Data
+namespace IndivisibleArkansasStatistics.Data
 {
-    public static class DbInitializer
+    public static class DBInitializer
     {
         public static void Initialize(IndivisibleArkansasStatisticsContext context)
         {
