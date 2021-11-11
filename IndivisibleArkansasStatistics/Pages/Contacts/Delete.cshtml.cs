@@ -12,9 +12,9 @@ namespace IndivisibleArkansasStatistics.Pages.Contacts
 {
     public class DeleteModel : PageModel
     {
-        private readonly IndivisibleArkansasStatistics.Data.ArkansasContext _context;
+        private readonly IndivisibleArkansasStatistics.Data.IndivisibleArkansasStatisticsContext _context;
 
-        public DeleteModel(IndivisibleArkansasStatistics.Data.ArkansasContext context)
+        public DeleteModel(IndivisibleArkansasStatistics.Data.IndivisibleArkansasStatisticsContext context)
         {
             _context = context;
         }

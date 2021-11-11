@@ -39,7 +39,7 @@ namespace IndivisibleArkansasStatistics
             { 
                 services.AddDatabaseDeveloperPageExceptionFilter();
 
-                services.AddDbContext<ArkansasContext>(options =>
+                services.AddDbContext<IndivisibleArkansasStatisticsContext>(options =>
                         options.UseSqlite(Configuration.GetConnectionString("IndivisibleArkansasStatisticsContext")));
             }
         }

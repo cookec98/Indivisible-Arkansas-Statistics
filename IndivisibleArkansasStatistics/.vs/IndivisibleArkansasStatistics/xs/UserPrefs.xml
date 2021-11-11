@@ -1,20 +1,34 @@
 ﻿<Properties StartupConfiguration="{BF3173E6-019B-4639-BF3C-7E4D707C759B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Data/DBInitalizer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Contacts/Edit.cshtml.cs">
     <Files>
       <File FileName="Startup.cs" Line="13" Column="1" />
       <File FileName="Pages/Shared/_Layout.cshtml" Line="30" Column="15" />
-      <File FileName="Data/DBInitalizer.cs" Line="1" Column="1" />
+      <File FileName="Data/DBInitalizer.cs" Line="20" Column="14" />
+      <File FileName="Data/IndivisibleArkansasStatisticsContext.cs" Line="1" Column="1" />
+      <File FileName="Pages/Contacts/Create.cshtml.cs" Line="20" Column="10" />
+      <File FileName="Pages/Contacts/Details.cshtml.cs" Line="15" Column="61" />
+      <File FileName="Pages/Contacts/Index.cshtml.cs" Line="27" Column="42" />
+      <File FileName="Pages/Contacts/Delete.cshtml.cs" Line="26" Column="10" />
+      <File FileName="Pages/Contacts/Edit.cshtml.cs" Line="9" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="IndivisibleArkansasStatistics" expanded="True">
             <Node name="IndivisibleArkansasStatistics" expanded="True">
-              <Node name="Data" expanded="True">
-                <Node name="DBInitalizer.cs" selected="True" />
-              </Node>
+              <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Pages" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Contacts" expanded="True">
+                  <Node name="Create.cshtml" expanded="True" />
+                  <Node name="Delete.cshtml" expanded="True" />
+                  <Node name="Details.cshtml" expanded="True" />
+                  <Node name="Edit.cshtml" expanded="True">
+                    <Node name="Edit.cshtml.cs" selected="True" />
+                  </Node>
+                  <Node name="Index.cshtml" expanded="True" />
+                </Node>
+              </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>

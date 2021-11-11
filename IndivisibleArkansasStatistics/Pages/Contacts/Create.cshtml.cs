@@ -12,9 +12,9 @@ namespace IndivisibleArkansasStatistics.Pages.Contacts
 {
     public class CreateModel : PageModel
     {
-        private readonly IndivisibleArkansasStatistics.Data.ArkansasContext _context;
+        private readonly IndivisibleArkansasStatistics.Data.IndivisibleArkansasStatisticsContext _context;
 
-        public CreateModel(IndivisibleArkansasStatistics.Data.ArkansasContext context)
+        public CreateModel(IndivisibleArkansasStatistics.Data.IndivisibleArkansasStatisticsContext context)
         {
             _context = context;
         }

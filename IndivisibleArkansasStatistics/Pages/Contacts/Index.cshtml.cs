@@ -12,9 +12,9 @@ namespace IndivisibleArkansasStatistics.Pages.Contacts
 {
     public class IndexModel : PageModel
     {
-        private readonly IndivisibleArkansasStatistics.Data.ArkansasContext _context;
+        private readonly IndivisibleArkansasStatistics.Data.IndivisibleArkansasStatisticsContext _context;
 
-        public IndexModel(IndivisibleArkansasStatistics.Data.ArkansasContext context)
+        public IndexModel(IndivisibleArkansasStatistics.Data.IndivisibleArkansasStatisticsContext context)
         {
             _context = context;
         }
