@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndivisibleArk", "IndivisibleArk\IndivisibleArk.csproj", "{CA181D64-57F9-4CE8-B653-D2122BD1DD88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA181D64-57F9-4CE8-B653-D2122BD1DD88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA181D64-57F9-4CE8-B653-D2122BD1DD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA181D64-57F9-4CE8-B653-D2122BD1DD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA181D64-57F9-4CE8-B653-D2122BD1DD88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {077773A9-5589-4EFB-9254-29CF20BC0EAF}
+	EndGlobalSection
+EndGlobal

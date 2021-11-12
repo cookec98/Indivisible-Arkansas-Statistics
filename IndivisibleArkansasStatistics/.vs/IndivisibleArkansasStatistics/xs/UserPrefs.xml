@@ -11,7 +11,7 @@
       <File FileName="Pages/Contacts/Delete.cshtml.cs" Line="30" Column="14" />
       <File FileName="Pages/Contacts/Edit.cshtml.cs" Line="35" Column="17" />
       <File FileName="Program.cs" Line="23" Column="10" />
-      <File FileName="Models/Contact.cs" Line="74" Column="31" />
+      <File FileName="Models/Contact.cs" Line="19" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

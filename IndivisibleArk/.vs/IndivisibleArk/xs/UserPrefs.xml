@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{CA181D64-57F9-4CE8-B653-D2122BD1DD88}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/Pages/Contacts/Index.cshtml">
+    <Files>
+      <File FileName="IndivisibleArk/Pages/Contacts/Index.cshtml.cs" Line="18" Column="10" IsPinned="True" />
+      <File FileName="IndivisibleArk/Models/Contact.cs" Line="15" Column="22" />
+      <File FileName="IndivisibleArk/Pages/Shared/_Layout.cshtml" Line="17" Column="51" />
+      <File FileName="IndivisibleArk/Pages/Index.cshtml" Line="8" Column="47" />
+      <File FileName="IndivisibleArk/appsettings.json" Line="11" Column="46" />
+      <File FileName="IndivisibleArk/Data/ArkContext.cs" Line="1" Column="1" />
+      <File FileName="IndivisibleArk/Program.cs" Line="32" Column="55" />
+      <File FileName="IndivisibleArk/Startup.cs" Line="42" Column="45" />
+      <File FileName="IndivisibleArk/Pages/Contacts/Index.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="IndivisibleArk" expanded="True">
+            <Node name="IndivisibleArk" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Contacts" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.IndivisibleArk PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
