@@ -22,9 +22,17 @@
   <ItemGroup>
     <None Remove="Pages\Contacts\" />
     <None Remove="Pages\Interests\" />
+    <None Remove="Pages\Locations\" />
+    <None Remove="Pages\Logs\" />
+    <None Remove="Pages\Registrations\" />
+    <None Remove="Pages\Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Pages\Contacts\" />
     <Folder Include="Pages\Interests\" />
+    <Folder Include="Pages\Locations\" />
+    <Folder Include="Pages\Logs\" />
+    <Folder Include="Pages\Registrations\" />
+    <Folder Include="Pages\Scripts\" />
   </ItemGroup>
 </Project>

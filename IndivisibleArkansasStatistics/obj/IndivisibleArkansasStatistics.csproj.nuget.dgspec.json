@@ -14,7 +14,7 @@
         "outputPath": "/Users/joshthomeczek/GithubStuff/DBWS/Indivisible-Arkansas-Statistics/IndivisibleArkansasStatistics/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/joshthomeczek/.nuget/NuGet/NuGet.Config"
+          "/Users/joshthomeczek/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
