@@ -1,15 +1,19 @@
 ﻿<Properties StartupConfiguration="{CA181D64-57F9-4CE8-B653-D2122BD1DD88}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/Pages/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/Pages/Interests/Index.cshtml.cs">
     <Files>
       <File FileName="IndivisibleArk/Pages/Contacts/Index.cshtml.cs" Line="18" Column="10" IsPinned="True" />
       <File FileName="IndivisibleArk/Models/Contact.cs" />
-      <File FileName="IndivisibleArk/Pages/Shared/_Layout.cshtml" Line="17" Column="51" />
+      <File FileName="IndivisibleArk/Pages/Shared/_Layout.cshtml" Line="32" Column="30" />
       <File FileName="IndivisibleArk/Pages/Index.cshtml" />
       <File FileName="IndivisibleArk/appsettings.json" />
       <File FileName="IndivisibleArk/Data/ArkContext.cs" />
       <File FileName="IndivisibleArk/Program.cs" />
       <File FileName="IndivisibleArk/Startup.cs" />
       <File FileName="IndivisibleArk/Pages/Contacts/Index.cshtml" />
+      <File FileName="IndivisibleArk/Pages/Locations/Index.cshtml" Line="1" Column="1" />
+      <File FileName="IndivisibleArk/Pages/Interests/Index.cshtml" Line="24" Column="64" />
+      <File FileName="IndivisibleArk/Models/Interest.cs" Line="1" Column="1" />
+      <File FileName="IndivisibleArk/Pages/Interests/Index.cshtml.cs" Line="29" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,9 +23,19 @@
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
+                <Node name="Contacts" expanded="True">
+                  <Node name="Edit.cshtml" expanded="True" />
                 </Node>
+                <Node name="Interests" expanded="True">
+                  <Node name="Edit.cshtml" expanded="True" />
+                  <Node name="Index.cshtml" expanded="True">
+                    <Node name="Index.cshtml.cs" selected="True" />
+                  </Node>
+                </Node>
+                <Node name="Locations" expanded="True">
+                  <Node name="Index.cshtml" expanded="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
