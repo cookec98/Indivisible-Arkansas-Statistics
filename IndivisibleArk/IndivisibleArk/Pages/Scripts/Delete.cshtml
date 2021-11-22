@@ -9,121 +9,37 @@
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>Contact</h4>
+    <h4>Script</h4>
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.F_name)
+            @Html.DisplayNameFor(model => model.Script.Topic)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.F_name)
+            @Html.DisplayFor(model => model.Script.Topic)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.M_name)
+            @Html.DisplayNameFor(model => model.Script.Text)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.M_name)
+            @Html.DisplayFor(model => model.Script.Text)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.L_name)
+            @Html.DisplayNameFor(model => model.Script.Type)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.L_name)
+            @Html.DisplayFor(model => model.Script.Type)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.Email)
+            @Html.DisplayNameFor(model => model.Script.Interest)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.Email)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.Address)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.Address)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.M_address)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.M_address)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.Apt_lot_no)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.Apt_lot_no)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.City)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.City)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.County)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.County)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.State)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.State)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.DOB)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.DOB)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.P_aff)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.P_aff)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.Precinct)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.Precinct)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.Phone)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.Phone)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.Zip)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.Zip)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.Registration)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.Registration)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.Location)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.Location.LocationId)
-        </dd>
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Contact.Interest)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Contact.Interest.InterestId)
+            @Html.DisplayFor(model => model.Script.Interest.InterestId)
         </dd>
     </dl>
     
     <form method="post">
-        <input type="hidden" asp-for="Contact.ContactId" />
+        <input type="hidden" asp-for="Script.ScriptId" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
         <a asp-page="./Index">Back to List</a>
     </form>

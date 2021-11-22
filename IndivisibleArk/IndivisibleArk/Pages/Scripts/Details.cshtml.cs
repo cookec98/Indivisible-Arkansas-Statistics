@@ -19,7 +19,7 @@ namespace IndivisibleArk.Pages.Scripts
             _context = context;
         }
 
-        public Contact Contact { get; set; }
+        public Script Script { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -28,11 +28,10 @@ namespace IndivisibleArk.Pages.Scripts
                 return NotFound();
             }
 
-            Contact = await _context.Contact
-                .Include(c => c.Interest)
-                .Include(c => c.Location).FirstOrDefaultAsync(m => m.ContactId == id);
+            Script = await _context.Script_1
+                .Include(s => s.Interest).FirstOrDefaultAsync(m => m.ScriptId == id);
 
-            if (Contact == null)
+            if (Script == null)
             {
                 return NotFound();
             }

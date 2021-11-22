@@ -22,12 +22,11 @@ namespace IndivisibleArk.Pages.Scripts
         public IActionResult OnGet()
         {
         ViewData["InterestId"] = new SelectList(_context.Interests, "InterestId", "InterestId");
-        ViewData["LocationId"] = new SelectList(_context.Locations, "LocationId", "LocationId");
             return Page();
         }
 
         [BindProperty]
-        public Contact Contact { get; set; }
+        public Script Script { get; set; }
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
@@ -37,7 +36,7 @@ namespace IndivisibleArk.Pages.Scripts
                 return Page();
             }
 
-            _context.Contact.Add(Contact);
+            _context.Script_1.Add(Script);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

@@ -1,15 +1,7 @@
 ﻿<Properties StartupConfiguration="{CA181D64-57F9-4CE8-B653-D2122BD1DD88}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/Pages/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/Models/Registration.cs">
     <Files>
-      <File FileName="IndivisibleArk/Pages/Contacts/Index.cshtml.cs" Line="18" Column="10" IsPinned="True" />
-      <File FileName="IndivisibleArk/Models/Contact.cs" />
-      <File FileName="IndivisibleArk/Pages/Shared/_Layout.cshtml" Line="17" Column="51" />
-      <File FileName="IndivisibleArk/Pages/Index.cshtml" />
-      <File FileName="IndivisibleArk/appsettings.json" />
-      <File FileName="IndivisibleArk/Data/ArkContext.cs" />
-      <File FileName="IndivisibleArk/Program.cs" />
-      <File FileName="IndivisibleArk/Startup.cs" />
-      <File FileName="IndivisibleArk/Pages/Contacts/Index.cshtml" />
+      <File FileName="IndivisibleArk/Models/Registration.cs" Line="18" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,11 +9,11 @@
           <Node name="IndivisibleArk" expanded="True">
             <Node name="IndivisibleArk" expanded="True">
               <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Registration.cs" selected="True" />
+              </Node>
               <Node name="Pages" expanded="True">
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
+                <Node name="Scripts" expanded="True" />
               </Node>
             </Node>
           </Node>

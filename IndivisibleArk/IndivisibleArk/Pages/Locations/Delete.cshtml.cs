@@ -20,7 +20,7 @@ namespace IndivisibleArk.Pages.Locations
         }
 
         [BindProperty]
-        public Contact Contact { get; set; }
+        public Location Location { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -29,11 +29,9 @@ namespace IndivisibleArk.Pages.Locations
                 return NotFound();
             }
 
-            Contact = await _context.Contact
-                .Include(c => c.Interest)
-                .Include(c => c.Location).FirstOrDefaultAsync(m => m.ContactId == id);
+            Location = await _context.Locations.FirstOrDefaultAsync(m => m.LocationId == id);
 
-            if (Contact == null)
+            if (Location == null)
             {
                 return NotFound();
             }
@@ -47,11 +45,11 @@ namespace IndivisibleArk.Pages.Locations
                 return NotFound();
             }
 
-            Contact = await _context.Contact.FindAsync(id);
+            Location = await _context.Locations.FindAsync(id);
 
-            if (Contact != null)
+            if (Location != null)
             {
-                _context.Contact.Remove(Contact);
+                _context.Locations.Remove(Location);
                 await _context.SaveChangesAsync();
             }
 

@@ -7,99 +7,16 @@
 
 <h1>Create</h1>
 
-<h4>Contact</h4>
+<h4>Location</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Contact.F_name" class="control-label"></label>
-                <input asp-for="Contact.F_name" class="form-control" />
-                <span asp-validation-for="Contact.F_name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.M_name" class="control-label"></label>
-                <input asp-for="Contact.M_name" class="form-control" />
-                <span asp-validation-for="Contact.M_name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.L_name" class="control-label"></label>
-                <input asp-for="Contact.L_name" class="form-control" />
-                <span asp-validation-for="Contact.L_name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.Email" class="control-label"></label>
-                <input asp-for="Contact.Email" class="form-control" />
-                <span asp-validation-for="Contact.Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.Address" class="control-label"></label>
-                <input asp-for="Contact.Address" class="form-control" />
-                <span asp-validation-for="Contact.Address" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.M_address" class="control-label"></label>
-                <input asp-for="Contact.M_address" class="form-control" />
-                <span asp-validation-for="Contact.M_address" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.Apt_lot_no" class="control-label"></label>
-                <input asp-for="Contact.Apt_lot_no" class="form-control" />
-                <span asp-validation-for="Contact.Apt_lot_no" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.City" class="control-label"></label>
-                <input asp-for="Contact.City" class="form-control" />
-                <span asp-validation-for="Contact.City" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.County" class="control-label"></label>
-                <input asp-for="Contact.County" class="form-control" />
-                <span asp-validation-for="Contact.County" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.State" class="control-label"></label>
-                <input asp-for="Contact.State" class="form-control" />
-                <span asp-validation-for="Contact.State" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.DOB" class="control-label"></label>
-                <input asp-for="Contact.DOB" class="form-control" />
-                <span asp-validation-for="Contact.DOB" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.P_aff" class="control-label"></label>
-                <input asp-for="Contact.P_aff" class="form-control" />
-                <span asp-validation-for="Contact.P_aff" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.Precinct" class="control-label"></label>
-                <input asp-for="Contact.Precinct" class="form-control" />
-                <span asp-validation-for="Contact.Precinct" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.Phone" class="control-label"></label>
-                <input asp-for="Contact.Phone" class="form-control" />
-                <span asp-validation-for="Contact.Phone" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.Zip" class="control-label"></label>
-                <input asp-for="Contact.Zip" class="form-control" />
-                <span asp-validation-for="Contact.Zip" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.Registration" class="control-label"></label>
-                <input asp-for="Contact.Registration" class="form-control" />
-                <span asp-validation-for="Contact.Registration" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.LocationId" class="control-label"></label>
-                <select asp-for="Contact.LocationId" class ="form-control" asp-items="ViewBag.LocationId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contact.InterestId" class="control-label"></label>
-                <select asp-for="Contact.InterestId" class ="form-control" asp-items="ViewBag.InterestId"></select>
+                <label asp-for="Location.Loc" class="control-label"></label>
+                <input asp-for="Location.Loc" class="form-control" />
+                <span asp-validation-for="Location.Loc" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

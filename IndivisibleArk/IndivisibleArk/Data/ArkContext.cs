@@ -33,5 +33,11 @@ namespace IndivisibleArk.Data
             modelBuilder.Entity<Registration>().ToTable("Registrations");
             modelBuilder.Entity<Script>().ToTable("Scripts");
         }
+
+        public DbSet<IndivisibleArk.Models.Log> Log_1 { get; set; }
+
+        public DbSet<IndivisibleArk.Models.Registration> Registration_1 { get; set; }
+
+        public DbSet<IndivisibleArk.Models.Script> Script_1 { get; set; }
     }
 }

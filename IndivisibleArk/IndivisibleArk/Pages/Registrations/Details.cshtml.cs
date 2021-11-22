@@ -19,7 +19,7 @@ namespace IndivisibleArk.Pages.Registrations
             _context = context;
         }
 
-        public Contact Contact { get; set; }
+        public Registration Registration { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -28,11 +28,11 @@ namespace IndivisibleArk.Pages.Registrations
                 return NotFound();
             }
 
-            Contact = await _context.Contact
-                .Include(c => c.Interest)
-                .Include(c => c.Location).FirstOrDefaultAsync(m => m.ContactId == id);
+            Registration = await _context.Registration_1
+                .Include(r => r.Contact)
+                .Include(r => r.Location).FirstOrDefaultAsync(m => m.RegistrationID == id);
 
-            if (Contact == null)
+            if (Registration == null)
             {
                 return NotFound();
             }

@@ -19,7 +19,7 @@ namespace IndivisibleArk.Pages.Locations
             _context = context;
         }
 
-        public Contact Contact { get; set; }
+        public Location Location { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -28,11 +28,9 @@ namespace IndivisibleArk.Pages.Locations
                 return NotFound();
             }
 
-            Contact = await _context.Contact
-                .Include(c => c.Interest)
-                .Include(c => c.Location).FirstOrDefaultAsync(m => m.ContactId == id);
+            Location = await _context.Locations.FirstOrDefaultAsync(m => m.LocationId == id);
 
-            if (Contact == null)
+            if (Location == null)
             {
                 return NotFound();
             }

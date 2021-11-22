@@ -19,13 +19,11 @@ namespace IndivisibleArk.Pages.Interests
             _context = context;
         }
 
-        public IList<Contact> Contact { get;set; }
+        public IList<Interest> Interest { get;set; }
 
         public async Task OnGetAsync()
         {
-            Contact = await _context.Contact
-                .Include(c => c.Interest)
-                .Include(c => c.Location).ToListAsync();
+            Interest = await _context.Interests.ToListAsync();
         }
     }
 }

@@ -19,13 +19,13 @@ namespace IndivisibleArk.Pages.Registrations
             _context = context;
         }
 
-        public IList<Contact> Contact { get;set; }
+        public IList<Registration> Registration { get;set; }
 
         public async Task OnGetAsync()
         {
-            Contact = await _context.Contact
-                .Include(c => c.Interest)
-                .Include(c => c.Location).ToListAsync();
+            Registration = await _context.Registration_1
+                .Include(r => r.Contact)
+                .Include(r => r.Location).ToListAsync();
         }
     }
 }

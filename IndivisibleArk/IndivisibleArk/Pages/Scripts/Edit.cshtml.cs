@@ -21,7 +21,7 @@ namespace IndivisibleArk.Pages.Scripts
         }
 
         [BindProperty]
-        public Contact Contact { get; set; }
+        public Script Script { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -30,16 +30,14 @@ namespace IndivisibleArk.Pages.Scripts
                 return NotFound();
             }
 
-            Contact = await _context.Contact
-                .Include(c => c.Interest)
-                .Include(c => c.Location).FirstOrDefaultAsync(m => m.ContactId == id);
+            Script = await _context.Script_1
+                .Include(s => s.Interest).FirstOrDefaultAsync(m => m.ScriptId == id);
 
-            if (Contact == null)
+            if (Script == null)
             {
                 return NotFound();
             }
            ViewData["InterestId"] = new SelectList(_context.Interests, "InterestId", "InterestId");
-           ViewData["LocationId"] = new SelectList(_context.Locations, "LocationId", "LocationId");
             return Page();
         }
 
@@ -52,7 +50,7 @@ namespace IndivisibleArk.Pages.Scripts
                 return Page();
             }
 
-            _context.Attach(Contact).State = EntityState.Modified;
+            _context.Attach(Script).State = EntityState.Modified;
 
             try
             {
@@ -60,7 +58,7 @@ namespace IndivisibleArk.Pages.Scripts
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ContactExists(Contact.ContactId))
+                if (!ScriptExists(Script.ScriptId))
                 {
                     return NotFound();
                 }
@@ -73,9 +71,9 @@ namespace IndivisibleArk.Pages.Scripts
             return RedirectToPage("./Index");
         }
 
-        private bool ContactExists(int id)
+        private bool ScriptExists(int id)
         {
-            return _context.Contact.Any(e => e.ContactId == id);
+            return _context.Script_1.Any(e => e.ScriptId == id);
         }
     }
 }

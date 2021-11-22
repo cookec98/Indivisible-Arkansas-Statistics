@@ -21,7 +21,7 @@ namespace IndivisibleArk.Pages.Registrations
         }
 
         [BindProperty]
-        public Contact Contact { get; set; }
+        public Registration Registration { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -30,15 +30,15 @@ namespace IndivisibleArk.Pages.Registrations
                 return NotFound();
             }
 
-            Contact = await _context.Contact
-                .Include(c => c.Interest)
-                .Include(c => c.Location).FirstOrDefaultAsync(m => m.ContactId == id);
+            Registration = await _context.Registration_1
+                .Include(r => r.Contact)
+                .Include(r => r.Location).FirstOrDefaultAsync(m => m.RegistrationID == id);
 
-            if (Contact == null)
+            if (Registration == null)
             {
                 return NotFound();
             }
-           ViewData["InterestId"] = new SelectList(_context.Interests, "InterestId", "InterestId");
+           ViewData["ContactId"] = new SelectList(_context.Contact, "ContactId", "Address");
            ViewData["LocationId"] = new SelectList(_context.Locations, "LocationId", "LocationId");
             return Page();
         }
@@ -52,7 +52,7 @@ namespace IndivisibleArk.Pages.Registrations
                 return Page();
             }
 
-            _context.Attach(Contact).State = EntityState.Modified;
+            _context.Attach(Registration).State = EntityState.Modified;
 
             try
             {
@@ -60,7 +60,7 @@ namespace IndivisibleArk.Pages.Registrations
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ContactExists(Contact.ContactId))
+                if (!RegistrationExists(Registration.RegistrationID))
                 {
                     return NotFound();
                 }
@@ -73,9 +73,9 @@ namespace IndivisibleArk.Pages.Registrations
             return RedirectToPage("./Index");
         }
 
-        private bool ContactExists(int id)
+        private bool RegistrationExists(int id)
         {
-            return _context.Contact.Any(e => e.ContactId == id);
+            return _context.Registration_1.Any(e => e.RegistrationID == id);
         }
     }
 }

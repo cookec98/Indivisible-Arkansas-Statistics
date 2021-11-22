@@ -19,13 +19,12 @@ namespace IndivisibleArk.Pages.Scripts
             _context = context;
         }
 
-        public IList<Contact> Contact { get;set; }
+        public IList<Script> Script { get;set; }
 
         public async Task OnGetAsync()
         {
-            Contact = await _context.Contact
-                .Include(c => c.Interest)
-                .Include(c => c.Location).ToListAsync();
+            Script = await _context.Script_1
+                .Include(s => s.Interest).ToListAsync();
         }
     }
 }

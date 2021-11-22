@@ -3,9 +3,10 @@ using Microsoft.EntityFrameworkCore;
 
 namespace IndivisibleArk.Models
 {
-    [Keyless]
     public class Registration
     {
+        public int RegistrationID { get; set; }
+
         //foreign
         public int LocationId { get; set; }
         public int ContactId { get; set; }

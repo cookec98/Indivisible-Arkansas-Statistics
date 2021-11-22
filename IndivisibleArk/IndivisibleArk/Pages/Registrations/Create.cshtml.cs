@@ -21,13 +21,13 @@ namespace IndivisibleArk.Pages.Registrations
 
         public IActionResult OnGet()
         {
-        ViewData["InterestId"] = new SelectList(_context.Interests, "InterestId", "InterestId");
+        ViewData["ContactId"] = new SelectList(_context.Contact, "ContactId", "Address");
         ViewData["LocationId"] = new SelectList(_context.Locations, "LocationId", "LocationId");
             return Page();
         }
 
         [BindProperty]
-        public Contact Contact { get; set; }
+        public Registration Registration { get; set; }
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
@@ -37,7 +37,7 @@ namespace IndivisibleArk.Pages.Registrations
                 return Page();
             }
 
-            _context.Contact.Add(Contact);
+            _context.Registration_1.Add(Registration);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");

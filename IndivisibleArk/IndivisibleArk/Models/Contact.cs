@@ -21,7 +21,7 @@ namespace IndivisibleArk.Models
         public string L_name { get; set; }
 
         //email
-        public string? Email { get; set; }
+        public string Email { get; set; }
 
         [Required]
         public string Address { get; set; }
@@ -29,11 +29,11 @@ namespace IndivisibleArk.Models
         //Not required, only needed if different
         //mailing address
         [Display(Name = "Mailing Address")]
-        public string? M_address { get; set; }
+        public string M_address { get; set; }
 
         //apartment or lot #
         [Display(Name = "Apartment Number")]
-        public string? Apt_lot_no { get; set; }
+        public string Apt_lot_no { get; set; }
 
         [Required]
         //city or town
@@ -52,10 +52,10 @@ namespace IndivisibleArk.Models
 
         //party affiliation
         [Display(Name = "Party Affiliation")]
-        public string? P_aff { get; set; }
+        public string P_aff { get; set; }
 
         //voting precinct
-        public string? Precinct { get; set; }
+        public string Precinct { get; set; }
 
         //phone number
         public int? Phone { get; set; }
@@ -74,7 +74,7 @@ namespace IndivisibleArk.Models
         //foreign
         public int? LocationId { get; set; }
         public int? InterestId { get; set; }
-        public Location? Location { get; set; }
-        public Interest? Interest { get; set; }
+        public Location Location { get; set; }
+        public Interest Interest { get; set; }
     }
 }

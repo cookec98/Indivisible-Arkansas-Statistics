@@ -21,13 +21,11 @@ namespace IndivisibleArk.Pages.Interests
 
         public IActionResult OnGet()
         {
-        ViewData["InterestId"] = new SelectList(_context.Interests, "InterestId", "InterestId");
-        ViewData["LocationId"] = new SelectList(_context.Locations, "LocationId", "LocationId");
             return Page();
         }
 
         [BindProperty]
-        public Contact Contact { get; set; }
+        public Interest Interest { get; set; }
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
@@ -37,7 +35,7 @@ namespace IndivisibleArk.Pages.Interests
                 return Page();
             }
 
-            _context.Contact.Add(Contact);
+            _context.Interests.Add(Interest);
             await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");
