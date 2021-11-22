@@ -5,6 +5,7 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  color: #3453a8;
 }
 
 /* Provide sufficient contrast against white background */
@@ -58,7 +59,18 @@ html {
   position: relative;
   min-height: 100%;
 }
-
+.navbar-light {
+    color: #3453a8;
+}
+.navbar-light .navbar-brand{
+    color: #3453a8;
+}
+.navbar-light .nav-item {
+    color: #3453a8;
+}
+.navbar-light .nav-item .nav-link {
+    color:#3453a8;
+}
 body {
     /* Margin bottom by footer height */
     font-family: 'Gothic A1', sans-serif;
