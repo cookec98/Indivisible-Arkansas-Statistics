@@ -27,7 +27,8 @@ a {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+      font-size: 14px;
+      font-family: 'Gothic A1', sans-serif;
 }
 @media (min-width: 768px) {
   html {
@@ -59,8 +60,11 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    font-family: 'Gothic A1', sans-serif;
+    margin-bottom: 60px;
+    background-color: #4772E7;
+    color: #fffef0;
 }
 .footer {
   position: absolute;
