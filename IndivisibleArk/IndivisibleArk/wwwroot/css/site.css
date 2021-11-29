@@ -5,6 +5,7 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  color: #3453a8;
 }
 
 /* Provide sufficient contrast against white background */
@@ -27,7 +28,8 @@ a {
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+      font-size: 14px;
+      font-family: 'Gothic A1', sans-serif;
 }
 @media (min-width: 768px) {
   html {
@@ -57,10 +59,24 @@ html {
   position: relative;
   min-height: 100%;
 }
-
+.navbar-light {
+    color: #3453a8;
+}
+.navbar-light .navbar-brand{
+    color: #3453a8;
+}
+.navbar-light .nav-item {
+    color: #3453a8;
+}
+.navbar-light .nav-item .nav-link {
+    color:#3453a8;
+}
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    font-family: 'Gothic A1', sans-serif;
+    margin-bottom: 60px;
+    background-color: #4772E7;
+    color: #fffef0;
 }
 .footer {
   position: absolute;
