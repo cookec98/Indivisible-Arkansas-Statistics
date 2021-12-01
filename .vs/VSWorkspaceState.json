@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\IndivisibleArk",
+    "\\IndivisibleArk\\IndivisibleArk",
+    "\\IndivisibleArk\\IndivisibleArk\\Models",
+    "\\IndivisibleArk\\IndivisibleArk\\Pages",
+    "\\IndivisibleArk\\IndivisibleArk\\Pages\\Contacts",
+    "\\IndivisibleArk\\IndivisibleArk\\Pages\\Interests",
+    "\\IndivisibleArk\\IndivisibleArk\\Pages\\Locations",
+    "\\IndivisibleArk\\IndivisibleArk\\Pages\\Registrations",
+    "\\IndivisibleArk\\IndivisibleArk\\Pages\\Shared"
+  ],
+  "SelectedNode": "\\IndivisibleArk\\IndivisibleArk\\Pages\\Contacts\\Create.cshtml",
+  "PreviewInSolutionExplorer": false
+}
