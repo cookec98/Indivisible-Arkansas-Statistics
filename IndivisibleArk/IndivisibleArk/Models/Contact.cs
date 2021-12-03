@@ -48,6 +48,8 @@ namespace IndivisibleArk.Models
 
         //date of birth
         [Display(Name = "Date of Birth")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime DOB { get; set; }
 
         //party affiliation
@@ -66,6 +68,8 @@ namespace IndivisibleArk.Models
 
         //registration date
         [Display(Name = "Registration Date")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime Registration { get; set; }
 
         //primary

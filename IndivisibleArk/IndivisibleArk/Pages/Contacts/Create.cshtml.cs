@@ -21,8 +21,8 @@ namespace IndivisibleArk.Pages.Contacts
 
         public IActionResult OnGet()
         {
-        ViewData["InterestId"] = new SelectList(_context.Set<Interest>(), "InterestId", "InterestId");
-        ViewData["LocationId"] = new SelectList(_context.Set<Location>(), "LocationId", "LocationId");
+        ViewData["InterestId"] = new SelectList(_context.Set<Interest>(), "InterestId", "Interests");
+        ViewData["LocationId"] = new SelectList(_context.Set<Location>(), "LocationId", "Loc");
             return Page();
         }
 
