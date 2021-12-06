@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{CA181D64-57F9-4CE8-B653-D2122BD1DD88}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/Pages/Contacts/Index.cshtml">
     <Files>
       <File FileName="IndivisibleArk/Pages/Contacts/Create.cshtml" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Pages/Contacts/Index.cshtml" Line="155" Column="30" />
+      <File FileName="IndivisibleArk/Pages/Contacts/Index.cshtml" Line="32" Column="46" />
       <File FileName="IndivisibleArk/wwwroot/js/site.js" Line="9" Column="2" />
       <File FileName="IndivisibleArk/Models/Contact.cs" Line="67" Column="34" />
-      <File FileName="IndivisibleArk/wwwroot/css/site.css" Line="100" Column="7" />
+      <File FileName="IndivisibleArk/wwwroot/css/site.css" Line="97" Column="24" />
+      <File FileName="IndivisibleArk/Pages/Shared/_Layout.cshtml" Line="31" Column="98" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,17 +14,14 @@
           <Node name="IndivisibleArk" expanded="True">
             <Node name="IndivisibleArk" expanded="True">
               <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Contacts" expanded="True">
-                  <Node name="Create.cshtml" expanded="True" />
-                  <Node name="Index.cshtml" expanded="True" />
+                  <Node name="Index.cshtml" selected="True" />
                 </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
                 <Node name="js" expanded="True" />
               </Node>
             </Node>

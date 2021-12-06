@@ -5,11 +5,13 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
-<p>
+<h1>Contacts</h1>
+<p></p>
+<h2>
+    @* make bigger, more obvious *@
     <a asp-page="Create">Create New</a>
-</p>
+</h2>
+<p></p>
 <div class="row align-items-start">
     <div class="col-9">
         <table class="table">
@@ -162,11 +164,23 @@
         <p id="info_view">
             This is where the details will go.
         </p>
+        <div>
+            <a class="nav-link" asp-page="/Scripts/Index">Generate a Script</a>
+        </div>
     </div>
 </div>
 
+
 @section Scripts {
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="/js/site.js"></script>
+    <script>
+        function ViewFunction() {
+
+            console.log("clicked!");
+            $("#info_view").text("YOU CLICKED THE BUTTON! CONGRATS!!!!")
+        }
+    </script>
 }
 

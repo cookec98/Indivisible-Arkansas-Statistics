@@ -92,7 +92,8 @@ body {
     color: #fffef0 !important;
 }
 .index-details{
-    background-color: white;
+    background-color: black;
     border-width: thin, thin, thin, thick;
     border-color:white;
+    color: black;
 }
