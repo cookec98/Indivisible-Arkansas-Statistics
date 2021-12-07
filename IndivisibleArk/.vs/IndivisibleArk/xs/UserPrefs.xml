@@ -1,21 +1,8 @@
 ﻿<Properties StartupConfiguration="{CA181D64-57F9-4CE8-B653-D2122BD1DD88}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/Models/Contact.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/Pages/Scripts/Create.cshtml">
     <Files>
+      <File FileName="IndivisibleArk/Pages/Scripts/Create.cshtml" Line="35" Column="55" />
       <File FileName="IndivisibleArk/Pages/Scripts/Create.cshtml.cs" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Pages/Interests/Create.cshtml" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Pages/Interests/Delete.cshtml" Line="19" Column="58" />
-      <File FileName="IndivisibleArk/Pages/Interests/Details.cshtml" Line="23" Column="65" />
-      <File FileName="IndivisibleArk/Pages/Interests/Details.cshtml.cs" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Pages/Interests/Edit.cshtml" Line="21" Column="61" />
-      <File FileName="IndivisibleArk/Pages/Interests/Edit.cshtml.cs" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Pages/Interests/Index.cshtml" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Pages/Interests/Index.cshtml.cs" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Pages/Locations/Create.cshtml" Line="21" Column="37" />
-      <File FileName="IndivisibleArk/Pages/Locations/Delete.cshtml" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Pages/Locations/Details.cshtml" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Pages/Locations/Index.cshtml" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Models/Location.cs" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Models/Contact.cs" Line="11" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,11 +10,12 @@
           <Node name="IndivisibleArk" expanded="True">
             <Node name="IndivisibleArk" expanded="True">
               <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Contact.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Locations" expanded="True" />
+                <Node name="Contacts" expanded="True" />
+                <Node name="Scripts" expanded="True">
+                  <Node name="Create.cshtml" expanded="True" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">

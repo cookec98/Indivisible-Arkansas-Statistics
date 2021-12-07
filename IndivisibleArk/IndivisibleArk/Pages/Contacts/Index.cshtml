@@ -166,7 +166,7 @@
     <div class="col-3 index-details">
         <ul id="info_view"></ul>
         <div>
-            <a class="nav-link" asp-page="/Scripts/Index">Generate a Script</a>
+            <a class="nav-link gen_script" asp-page="/Scripts/Index">Generate a Script</a>
         </div>
     </div>
 </div>
@@ -179,18 +179,17 @@
 
         function ViewFunction(conID) {
 
-
             console.log("clicked button.");
             console.log(conID - 1 + " contact");
 
-            //run a for loop
+            //run a for loop?
+
             $("#info_view").empty();
-            $("#info_view").append("<li> First Name: .F_name</li>");
+            //$("#info_view").append("<li> First Name:.F_name</li>");
             $("#info_view").append("<li> Middle Name: @Model.Contact[0].M_name</li>");
             $("#info_view").append("<li> Last Name: @Model.Contact[0].L_name</li>");
             $("#info_view").append("<li> Email: @Model.Contact[0].Email</li>");
             $("#info_view").append("<li> Address: @Model.Contact[0].Address</li>");
-            
         }
     </script>
 }
