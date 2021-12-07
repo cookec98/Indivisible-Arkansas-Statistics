@@ -25,7 +25,7 @@ namespace IndivisibleArk.Pages.Contacts
         public string CurrentFilter { get; set; }
         public string CurrentSort { get; set; }
         public string ContactInterest { get; set; }
-        public IList<Contact> Contacts { get; set; }
+        public IList<Contact> Contact { get; set; }
         public async Task OnGetAsync(string sortOrder, string searchString)
         {
             NameSort = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
@@ -57,7 +57,7 @@ namespace IndivisibleArk.Pages.Contacts
                     break;
             }
 
-            Contacts = await contactsIQ.AsNoTracking().ToListAsync();
+            Contact = await contactsIQ.AsNoTracking().ToListAsync();
         }
     }
 }
