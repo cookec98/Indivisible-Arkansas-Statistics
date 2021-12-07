@@ -37,7 +37,7 @@ namespace IndivisibleArk.Pages.Scripts
             {
                 return NotFound();
             }
-           ViewData["InterestId"] = new SelectList(_context.Interests, "InterestId", "InterestId");
+           ViewData["InterestId"] = new SelectList(_context.Interests, "InterestId", "Interests");
             return Page();
         }
 

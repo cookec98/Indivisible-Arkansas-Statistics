@@ -149,21 +149,22 @@
                             </td>
                         *@
 
-                        <td>
-                            <a asp-page="./Edit" asp-route-id="@item.ContactId">Edit</a> |
-                            <a asp-page="./Details" asp-route-id="@item.ContactId">Details</a> |
-                            <a asp-page="./Delete" asp-route-id="@item.ContactId">Delete</a>
-                            <button id='view_btn' onclick="ViewFunction()">View</button>
-                        </td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.ContactId">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.ContactId">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.ContactId">Delete</a>
+
+                        <script>console.log("iterated " + "@item.ContactId");</script>
+                        @Html.Hidden("contIDNum", item.ContactId)
+                        <button id='view_btn' onclick="ViewFunction(@item.ContactId)">View</button>
+                    </td>
                     </tr>
                 }
             </tbody>
         </table>
     </div>
     <div class="col-3 index-details">
-        <p id="info_view">
-            This is where the details will go.
-        </p>
+        <ul id="info_view"></ul>
         <div>
             <a class="nav-link" asp-page="/Scripts/Index">Generate a Script</a>
         </div>
@@ -174,12 +175,22 @@
 @section Scripts {
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="/js/site.js"></script>
     <script>
-        function ViewFunction() {
 
-            console.log("clicked!");
-            $("#info_view").text("YOU CLICKED THE BUTTON! CONGRATS!!!!")
+        function ViewFunction(conID) {
+
+
+            console.log("clicked button.");
+            console.log(conID - 1 + " contact");
+
+            //run a for loop
+            $("#info_view").empty();
+            $("#info_view").append("<li> First Name: .F_name</li>");
+            $("#info_view").append("<li> Middle Name: @Model.Contact[0].M_name</li>");
+            $("#info_view").append("<li> Last Name: @Model.Contact[0].L_name</li>");
+            $("#info_view").append("<li> Email: @Model.Contact[0].Email</li>");
+            $("#info_view").append("<li> Address: @Model.Contact[0].Address</li>");
+            
         }
     </script>
 }

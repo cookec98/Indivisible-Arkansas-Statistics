@@ -2,8 +2,8 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
-script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"
 
-function ViewFunction(){
-    console.log("clicked!");
-}
+//function ViewFunction(){
+//    console.log("clicked using site.js!");
+//
+//}

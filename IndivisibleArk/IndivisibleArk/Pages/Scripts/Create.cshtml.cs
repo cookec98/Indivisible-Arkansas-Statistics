@@ -21,7 +21,7 @@ namespace IndivisibleArk.Pages.Scripts
 
         public IActionResult OnGet()
         {
-        ViewData["InterestId"] = new SelectList(_context.Interests, "InterestId", "InterestId");
+        ViewData["InterestId"] = new SelectList(_context.Interests, "InterestId", "Interests");
             return Page();
         }
 

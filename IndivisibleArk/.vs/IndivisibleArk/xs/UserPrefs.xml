@@ -1,12 +1,8 @@
 ﻿<Properties StartupConfiguration="{CA181D64-57F9-4CE8-B653-D2122BD1DD88}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/Pages/Contacts/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/Pages/Scripts/Create.cshtml">
     <Files>
-      <File FileName="IndivisibleArk/Pages/Contacts/Create.cshtml" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Pages/Contacts/Index.cshtml" Line="32" Column="46" />
-      <File FileName="IndivisibleArk/wwwroot/js/site.js" Line="9" Column="2" />
-      <File FileName="IndivisibleArk/Models/Contact.cs" Line="67" Column="34" />
-      <File FileName="IndivisibleArk/wwwroot/css/site.css" Line="97" Column="24" />
-      <File FileName="IndivisibleArk/Pages/Shared/_Layout.cshtml" Line="31" Column="98" />
+      <File FileName="IndivisibleArk/Pages/Scripts/Create.cshtml" Line="1" Column="1" />
+      <File FileName="IndivisibleArk/Pages/Scripts/Create.cshtml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,9 +10,18 @@
           <Node name="IndivisibleArk" expanded="True">
             <Node name="IndivisibleArk" expanded="True">
               <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Contacts" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+                  <Node name="Create.cshtml" expanded="True" />
+                  <Node name="Index.cshtml" expanded="True" />
+                </Node>
+                <Node name="Scripts" expanded="True">
+                  <Node name="Create.cshtml" expanded="True" selected="True" />
+                  <Node name="Delete.cshtml" expanded="True" />
+                  <Node name="Details.cshtml" expanded="True" />
+                  <Node name="Edit.cshtml" expanded="True" />
+                  <Node name="Index.cshtml" expanded="True" />
                 </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
