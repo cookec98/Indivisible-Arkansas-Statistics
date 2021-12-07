@@ -11,6 +11,16 @@
     @* make bigger, more obvious *@
     <a asp-page="Create">Create New</a>
 </h2>
+<form asp-page="./Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by name:
+            <input type="text" name="SearchString" value="@Model.CurrentFilter" />
+            <input type="submit" value="Search" class="btn btn-primary" /> |
+            <a asp-page="./Index">Back to full List</a>
+        </p>
+    </div>
+</form>
 <p></p>
 <div class="row align-items-start">
     <div class="col-9">
@@ -18,7 +28,9 @@
             <thead>
                 <tr>
                     <th>
-                        @Html.DisplayNameFor(model => model.Contact[0].F_name)
+                        <a asp-page="./Index" asp-route-sortOrder="@Model.NameSort">
+                            @Html.DisplayNameFor(model => model.Contact[0].F_name)
+                        </a>
                     </th>
                     @*
                         <th>
@@ -67,9 +79,11 @@
                             @Html.DisplayNameFor(model => model.Contact[0].Zip)
                         </th>
                     *@
-                    <th>
+                <th>
+                    <a asp-page="./Index" asp-route-sortOrder="@Model.DateSort">
                         @Html.DisplayNameFor(model => model.Contact[0].Registration)
-                    </th>
+                    </a>
+                </th>
 
                     @*
                         <th>
