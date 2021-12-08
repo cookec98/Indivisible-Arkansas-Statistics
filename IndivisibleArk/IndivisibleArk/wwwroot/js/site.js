@@ -10,7 +10,9 @@
 
 function genFunction(script_text, user_name, con_name) {
     console.log("clicked generator button");
-
+    console.log(script_text);
+    console.log(user_name);
+    console.log(con_name);
     let s_text = script_text.toString;
     s_text.replaceall("_c_", con_name);
     s_text.replaceall("_v_", user_name);
