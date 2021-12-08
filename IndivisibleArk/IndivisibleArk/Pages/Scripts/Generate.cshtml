@@ -7,6 +7,8 @@
 
 <h1>Generate Named Script</h1>
 
+
+
 <table class="table">
     <thead>
         <tr>
@@ -24,7 +26,7 @@
                     @Html.DisplayFor(modelItem => item.Topic)
                 </td>
                 <td>
-                    <button id="gen_btn" onclick="genFunction('@item.Text','Max', 'Josh')">Use</button>
+                    <button id="gen_btn" onclick="SelectScript('@item.Text','Max', 'Josh')">Use</button>
                 </td>
             </tr>
         }
@@ -48,18 +50,18 @@
     <thead>
         <tr>
             <th>
-                    @Html.DisplayNameFor(model => model.Contact[0].F_name)
+                @Html.DisplayNameFor(model => model.Contact[0].F_name)
             </th>
-            
+
             <th>
                 @Html.DisplayNameFor(model => model.Contact[0].L_name)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Contact[0].Email)
             </th>
-            
+
             <th>
-                    @Html.DisplayNameFor(model => model.Contact[0].Registration) 
+                @Html.DisplayNameFor(model => model.Contact[0].Registration)
             </th>
             <th></th>
         </tr>
@@ -67,23 +69,42 @@
     <tbody>
         @foreach (var item in Model.Contact)
         {
-<tr>
-    <td>
-        @Html.DisplayFor(modelItem => item.F_name)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.L_name)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Email)
-    </td>
-    <td>
-        @Html.DisplayFor(modelItem => item.Registration)
-    </td>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.F_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.L_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Registration)
+                </td>
 
-    <td>
-        <button id='view_btn' onclick="ViewFunction(@item.ContactId)">Use</button>
-    </td>
-</tr>}
+                <td>
+                    <button id='view_btn' onclick="SelectContact(@item)">Use</button>
+                </td>
+            </tr>
+}
     </tbody>
 </table>
+<div class="col-3 index-details">
+    <ul id="contact"></ul>
+</div>
+
+@section Scripts {
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script>
+        var contact = ""
+        var script = ""
+        function SelectContact(contact) {
+            console.log(contact.F_name)
+            contact = contact.F_name + contact.L_name
+
+                $("contact").append(contact);
+        }
+    </script>
+}
