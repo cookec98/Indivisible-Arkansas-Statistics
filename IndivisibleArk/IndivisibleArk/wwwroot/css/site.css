@@ -100,3 +100,6 @@ body {
 .gen_script{
     color: black;
 }
+#create_new_link{
+    padding-left: 30px;
+}

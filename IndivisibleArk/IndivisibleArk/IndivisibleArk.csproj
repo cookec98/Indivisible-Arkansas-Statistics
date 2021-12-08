@@ -34,5 +34,9 @@
     <Folder Include="Pages\Logs\" />
     <Folder Include="Pages\Registrations\" />
     <Folder Include="Pages\Scripts\" />
+    <Folder Include="wwwroot\js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\js\" />
   </ItemGroup>
 </Project>

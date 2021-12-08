@@ -7,3 +7,29 @@
 //    console.log("clicked using site.js!");
 //
 //}
+
+function genFunction(script_text, user_name, con_name) {
+    console.log("clicked generator button");
+
+    let s_text = script_text.toString;
+    s_text.replaceall("_c_", con_name);
+    s_text.replaceall("_v_", user_name);
+
+    console.log(s_text);
+}
+
+
+function copyTextToClipboard(text) {
+
+    if (!navigator.clipboard) {
+        fallbackCopyTextToClipboard(text);
+        return;
+    }
+
+    navigator.clipboard.writeText(text).then(function () {
+        console.log('Async: Copying to clipboard was successful!');
+    }, function (err) {
+        console.error('Async: Could not copy text: ', err);
+    });
+
+}
