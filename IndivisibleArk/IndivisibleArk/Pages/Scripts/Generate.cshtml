@@ -11,7 +11,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Script[0].Topic)
+                <p>Script</p>
             </th>
             <th></th>
         </tr>
@@ -29,5 +29,61 @@
             </tr>
         }
 
+    </tbody>
+</table>
+<h1>Contacts</h1>
+<p></p>
+<form asp-page="./Generate" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Find by name:
+            <input type="text" name="SearchString" value="@Model.CurrentFilter" />
+            <input type="submit" value="Search" class="btn btn-primary" /> |
+            <a asp-page="./Generate">Back to full List</a>
+        </p>
+    </div>
+</form>
+<p></p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                    @Html.DisplayNameFor(model => model.Contact[0].F_name)
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.Contact[0].L_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contact[0].Email)
+            </th>
+            
+            <th>
+                    @Html.DisplayNameFor(model => model.Contact[0].Registration) 
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Contact)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.F_name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.L_name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Email)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Registration)
+    </td>
+
+    <td>
+        <button id='view_btn' onclick="ViewFunction(@item.ContactId)">Use</button>
+    </td>
+</tr>}
     </tbody>
 </table>
