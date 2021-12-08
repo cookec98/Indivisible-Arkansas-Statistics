@@ -198,12 +198,24 @@
 
             //run a for loop?
 
-            $("#info_view").empty();
-            //$("#info_view").append("<li> First Name:.F_name</li>");
-            $("#info_view").append("<li> Middle Name: @Model.Contact[0].M_name</li>");
-            $("#info_view").append("<li> Last Name: @Model.Contact[0].L_name</li>");
-            $("#info_view").append("<li> Email: @Model.Contact[0].Email</li>");
-            $("#info_view").append("<li> Address: @Model.Contact[0].Address</li>");
+            $.ajax({
+                url: '/Contacts/Filter',
+                data: {
+                    Contact: conID
+                }
+            })
+                .done(function (result) {
+                    console.log(result);
+
+                    $("#info_view").empty();
+                    //$("#info_view").append("<li> First Name: result....</li>");
+
+                    $("#info_view").append("<li> Middle Name: @Model.Contact[0].M_name</li>");
+                    $("#info_view").append("<li> Last Name: @Model.Contact[0].L_name</li>");
+                    $("#info_view").append("<li> Email: @Model.Contact[0].Email</li>");
+                    $("#info_view").append("<li> Address: @Model.Contact[0].Address</li>");
+                });
+                    
         }
     </script>
 }

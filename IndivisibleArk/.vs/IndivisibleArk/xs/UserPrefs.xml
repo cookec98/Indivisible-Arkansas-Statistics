@@ -1,10 +1,16 @@
 ﻿<Properties StartupConfiguration="{CA181D64-57F9-4CE8-B653-D2122BD1DD88}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/wwwroot/js/site.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IndivisibleArk/Pages/Contacts/Filter.cshtml.cs">
     <Files>
       <File FileName="IndivisibleArk/Pages/Scripts/Details.cshtml" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Pages/Scripts/Details.cshtml.cs" Line="1" Column="1" />
-      <File FileName="IndivisibleArk/Pages/Scripts/Index.cshtml" Line="49" Column="78" />
+      <File FileName="IndivisibleArk/Pages/Scripts/Details.cshtml.cs" />
+      <File FileName="IndivisibleArk/Pages/Scripts/Index.cshtml" />
       <File FileName="IndivisibleArk/wwwroot/js/site.js" Line="21" Column="2" />
+      <File FileName="IndivisibleArk/Pages/Contacts/Create.cshtml" Line="1" Column="1" />
+      <File FileName="IndivisibleArk/Pages/Contacts/Index.cshtml" Line="197" Column="42" />
+      <File FileName="IndivisibleArk/Pages/Contacts/Filter.cshtml" Line="1" Column="1" />
+      <File FileName="IndivisibleArk/Pages/Contacts/Filter.cshtml.cs" Line="21" Column="57" />
+      <File FileName="IndivisibleArk/Pages/Contacts/Create.cshtml.cs" Line="17" Column="66" />
+      <File FileName="IndivisibleArk/Data/ArkContext.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,13 +20,17 @@
               <Node name="Data" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
+                <Node name="Contacts" expanded="True">
+                  <Node name="Create.cshtml" expanded="True" />
+                  <Node name="Filter.cshtml" expanded="True">
+                    <Node name="Filter.cshtml.cs" selected="True" />
+                  </Node>
+                </Node>
                 <Node name="Scripts" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="js" expanded="True">
-                  <Node name="site.js" selected="True" />
-                </Node>
+                <Node name="js" expanded="True" />
               </Node>
             </Node>
           </Node>
