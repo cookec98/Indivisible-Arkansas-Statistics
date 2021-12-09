@@ -19,10 +19,13 @@ namespace IndivisibleArk.Pages.Scripts
             _context = context;
         }
 
+        public string DateSort { get; set; }
         public IList<Script> Script { get; set; }
         public IList<Contact> Contact { get; set; }
-        public async Task OnGetAsync(string searchString)
+        public async Task OnGetAsync(string sortOrder, string searchString)
         {
+            DateSort = sortOrder == "Date" ? "date_desc" : "Date";
+
             Script = await _context.Script_1
                 .Include(s => s.Interest).ToListAsync();
             CurrentFilter = searchString;
@@ -34,6 +37,17 @@ namespace IndivisibleArk.Pages.Scripts
                                        || c.L_name.Contains(searchString)
                                        || c.M_name.Contains(searchString));
             }
+
+            switch (sortOrder)
+            {
+                case "Date":
+                    contactsIQ = contactsIQ.OrderBy(c => c.Registration);
+                    break;
+                case "date_desc":
+                    contactsIQ = contactsIQ.OrderByDescending(c => c.Registration);
+                    break;
+            }
+
             Contact = await contactsIQ.AsNoTracking().ToListAsync();
         }
         
