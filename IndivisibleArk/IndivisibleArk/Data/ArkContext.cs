@@ -20,9 +20,9 @@ namespace IndivisibleArk.Data
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Interest> Interests { get; set; }
         public DbSet<Location> Locations { get; set; }
-        public DbSet<Location> Log { get; set; }
-        public DbSet<Location> Registration { get; set; }
-        public DbSet<Location> Script { get; set; }
+        public DbSet<Log> Logs { get; set; }
+        public DbSet<Registration> Registrations { get; set; }
+        public DbSet<Script> Scripts { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
