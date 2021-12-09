@@ -202,6 +202,7 @@
                 }
             })
                 .done(function (result) {
+                    console.log(result);
 
                     $("#info_view").empty();
                     $("#info_view").append("<li> First Name: "+result[0].f_name+"</li>");
@@ -209,13 +210,13 @@
                     $("#info_view").append("<li> Last Name: " + result[0].l_name + "</li>");
                     $("#info_view").append("<li> Email: "+result[0].email+"</li>");
                     $("#info_view").append("<li> Address: " + result[0].address + "</li>");
-                    $("#info_view").append("<li> Mailing Address: " + result[0].M_address + "</li>");
+                    $("#info_view").append("<li> Mailing Address: " + result[0].m_address + "</li>");
                     $("#info_view").append("<li> Apartment Number: " + result[0].apt_lot_no + "</li>");
                     $("#info_view").append("<li> City: " + result[0].city + "</li>");
                     $("#info_view").append("<li> County: " + result[0].county + "</li>");
                     $("#info_view").append("<li> State: " + result[0].state + "</li>");
                     $("#info_view").append("<li> Date of Birth: " + result[0].dob.slice(0, 10) + "</li>");
-                    $("#info_view").append("<li> Party affiliation: " + result[0].P_aff + "</li>");
+                    $("#info_view").append("<li> Party affiliation: " + result[0].p_aff + "</li>");
                     $("#info_view").append("<li> Precinct: " + result[0].precinct + "</li>");
                     $("#info_view").append("<li> Phone Number: " + result[0].phone + "</li>");
                     $("#info_view").append("<li> ZIP Code: " + result[0].zip + "</li>");
